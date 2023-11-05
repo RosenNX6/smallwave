@@ -1,0 +1,110 @@
+(footprint "SMD_Diode_Tiny" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "Resitance 3 pas")
+  (tags "R")
+  (property "Sheetfile" "main.kicad_sch")
+  (property "Sheetname" "")
+  (property "ki_description" "Diode, small symbol")
+  (property "ki_keywords" "diode")
+  (fp_text reference "D28" (at 0 1.397) (layer "F.Fab") hide
+      (effects (font (size 0.5 0.5) (thickness 0.125)))
+    (tstamp bcfc5138-f8fb-47cc-b527-307c609ac93c)
+  )
+  (fp_text value "diode" (at 0 -1.397) (layer "F.Fab") hide
+      (effects (font (size 0.5 0.5) (thickness 0.125)))
+    (tstamp f06662c7-3168-4397-ad73-7bfb053d516a)
+  )
+  (fp_line (start -2.7 -0.75) (end -2.7 0.75)
+    (stroke (width 0.15) (type solid)) (layer "B.SilkS") (tstamp c8f436ea-f321-4bda-aff8-db1fa5333060))
+  (fp_line (start -2.7 0.75) (end -0.85 0.75)
+    (stroke (width 0.15) (type solid)) (layer "B.SilkS") (tstamp 0e83d0ab-da8c-4d3a-b1cf-6f545eaf41d3))
+  (fp_line (start -0.85 -0.75) (end -2.7 -0.75)
+    (stroke (width 0.15) (type solid)) (layer "B.SilkS") (tstamp 57c2d114-a23f-4cb8-ab99-f3d3cca46375))
+  (fp_line (start -0.85 -0.75) (end -0.85 0.75)
+    (stroke (width 0.15) (type solid)) (layer "B.SilkS") (tstamp 0ca3c308-8788-4e7a-ac0c-65dbea19ba00))
+  (fp_line (start -0.5 0.5) (end -0.5 -0.5)
+    (stroke (width 0.15) (type solid)) (layer "B.SilkS") (tstamp bff4b7ff-9eca-4b6f-b24e-154605757199))
+  (fp_line (start -0.4 0) (end 0.5 0.5)
+    (stroke (width 0.15) (type solid)) (layer "B.SilkS") (tstamp 1b2b8cc0-7c3a-4ef1-8272-b2898ce7d8fe))
+  (fp_line (start 0.5 -0.5) (end -0.4 0)
+    (stroke (width 0.15) (type solid)) (layer "B.SilkS") (tstamp 75dfb385-a68e-4611-871f-f3b1a888a446))
+  (fp_line (start 0.5 0.5) (end 0.5 -0.5)
+    (stroke (width 0.15) (type solid)) (layer "B.SilkS") (tstamp 9d95995c-dea0-4287-bcec-e412b231da6a))
+  (fp_poly
+    (pts
+      (xy -2.375 -0.425)
+      (xy -1.175 -0.425)
+      (xy -1.175 0.425)
+      (xy -2.375 0.425)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "B.Mask") (tstamp ae0e1fa4-04ff-425d-9f79-d9bc226bd015))
+  (fp_poly
+    (pts
+      (xy 1.175 -0.425)
+      (xy 2.375 -0.425)
+      (xy 2.375 0.425)
+      (xy 1.175 0.425)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "B.Mask") (tstamp 190193ef-9439-40bc-b46e-35c4597a0da2))
+  (pad "1" smd custom (at -1.775 0) (size 1.3 0.95) (layers "F.Cu")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 1.0942 0.1774)
+          (xy 0.521 0.1774)
+          (xy 0.521 -0.1782)
+          (xy 1.0942 -0.1782)
+        )
+        (width 0.1) (fill yes))
+    ) (tstamp 55580112-a6e7-410a-a2d5-d7a2439d05fb))
+  (pad "1" smd custom (at -1.775 0) (size 1.3 0.95) (layers "B.Cu")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 1.094 0.177)
+          (xy 0.5208 0.177)
+          (xy 0.5208 -0.1786)
+          (xy 1.094 -0.1786)
+        )
+        (width 0.1) (fill yes))
+    ) (tstamp da75d1c1-d053-4f63-bd03-f945566d362b))
+  (pad "1" thru_hole circle (at -0.6746 0 270) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu") (tstamp e9e0c9fd-5c64-4f9b-a171-caf773046eca))
+  (pad "2" thru_hole circle (at 0.6746 0.0004 90) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu") (tstamp 8cec8fc7-c378-403d-9fbc-f1c97b566c84))
+  (pad "2" smd custom (at 1.775 0) (size 1.3 0.95) (layers "F.Cu")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy -0.521 0.1786)
+          (xy -1.0942 0.1786)
+          (xy -1.0942 -0.177)
+          (xy -0.521 -0.177)
+        )
+        (width 0.1) (fill yes))
+    ) (tstamp 73e69957-5e78-4716-bee8-c5e710248fb8))
+  (pad "2" smd custom (at 1.775 0) (size 1.3 0.95) (layers "B.Cu")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy -0.5208 0.179)
+          (xy -1.094 0.179)
+          (xy -1.094 -0.1766)
+          (xy -0.5208 -0.1766)
+        )
+        (width 0.1) (fill yes))
+    ) (tstamp f78fefdc-16b5-4103-ba2f-e5efcfd2bc18))
+  (model "Diodes_SMD.3dshapes/SMB_Handsoldering.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 0.22 0.15 0.15))
+    (rotate (xyz 0 0 180))
+  )
+)
