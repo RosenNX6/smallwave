@@ -1,6 +1,9 @@
 # smallwave
 This design was inspired by Urchin and Flipper designs.
 
+> **Warning**
+> This repository is currently under construction. Files and descriptions are not complete at this time.
+
 **Parts List**
 | Quantity | Item | Source | Cost |
 | :---: | --- | --- | --- |
