@@ -18,3 +18,4 @@ This design was inspired by Urchin and Flipper designs.
 | 2 | Power Switch | typeractive.zyz | $1.50 |
 | 2 | Lithium Battery 110mAh (BLK PH 2.0mm) | typeractive.xyz | $8.00 |
 | 5 | smallwave PCB | jlcpcb.com | $38.93 |
+| 16 | Vinyl Self Adhesive Pads (round 3/8") | Hardware Store | $4.99 |
