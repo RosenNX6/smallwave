@@ -16,7 +16,7 @@ This design was inspired by Urchin and Flipper designs.
 
 ## Parts List
 #### Required Parts
-- 1× smallwave PCB (files can be found in [gerbers](https://github.com/rosennx6/smallwave/gerbers))
+- 1× smallwave PCB (files can be found in the gerbers folder)
 - 2× nice!nano
 - 2× Lipo battery
 - 48× Mill-max machined pins
