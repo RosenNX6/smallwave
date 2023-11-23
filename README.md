@@ -52,3 +52,9 @@ This design was inspired by Urchin and Flipper designs.
 | 16 | Vinyl Self Adhesive Pads (round 3/8") | Ace Hardware | $4.99 |
 | 2 | Magnetic Type C Cable | amazon.com | $14.99 |
 | 1 | Anker PowerPort Mini Dual Port USB Wall Charger | amazon.com | $6.99 |
+
+## Build Guide
+Pending.
+
+## Firmware
+The smallwave utilizes the ZMK programming language. To view, download, or edit the zmk programming used for this project, visit the [zmk-config-smallwave repository](https://github.com/rosennx6/zmk-config-smallwave) and follow the provided instructions.
