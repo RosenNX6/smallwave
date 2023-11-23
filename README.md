@@ -57,4 +57,4 @@ This design was inspired by Urchin and Flipper designs.
 Pending.
 
 ## Firmware
-The smallwave utilizes the ZMK programming language. To view, download, or edit the zmk programming used for this project, visit the [zmk-config-smallwave repository](https://github.com/rosennx6/zmk-config-smallwave) and follow the provided instructions.
+The smallwave utilizes the ZMK programming language. To view, download, or edit the zmk programming used for this project, visit the [zmk-config-smallwave repository](https://github.com/rosennx6/zmk-config-smallwave).
