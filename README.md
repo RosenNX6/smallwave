@@ -9,10 +9,8 @@
   
 </span>
 
-This design was inspired by Urchin and Flipper designs.
-
-> **Warning**
-> This repository is currently under construction. Files and descriptions are not complete at this time.
+The smallwave is a 34 key wireless split keyboard with a e-paper style display.
+This design ultimately comes from the popular [Sweep](https://github.com/davidphilipbarr/Sweep) layout but was built by modifying the [Urchin](https://github.com/duckyb/uchin) design and inspired by many aspects of the [Flipper](https://github.com/benvallack/the-flipper) and Corne layout.
 
 ## Hardware List
 #### Required Parts
@@ -53,9 +51,6 @@ This design was inspired by Urchin and Flipper designs.
 | 2 | Magnetic Type C Cable | amazon.com | $14.99 |
 | 1 | Anker PowerPort Mini Dual Port USB Wall Charger | amazon.com | $6.99 |
 
-## Firmware
-The smallwave utilizes the ZMK programming language. To view, download, or edit the zmk programming used for this project, visit the [zmk-config-smallwave repository](https://github.com/rosennx6/zmk-config-smallwave).
-
 ## Design Software
 #### KiCad
 PCB design, part locations, copper traces, and pads. This was a steep learning curve for me but the software was incredible once I got the hang of it.
@@ -65,6 +60,9 @@ PCB shape (edge cuts). This can be done in KiCad but I am inexperienced with the
 Used for making the PCB art through the use of SVG files. 
 #### Github
 Used for programming the keyboard in the ZMK language directly in the web browser. How cool is that? More on this below.
+
+## Firmware
+The smallwave utilizes the ZMK programming language. To view, download, or edit the zmk programming used for this project, visit the [zmk-config-smallwave repository](https://github.com/rosennx6/zmk-config-smallwave).
 
 ## Inspiration/Credits
 This build was inspired by the Ferris Sweep, Ben Vallack's Flipper, and Duccio's Urchin. I started this project with zero knowledge of keyboards, PCBs, or programming but, along with browsing [r/ErgoMechKeyboards](https://www.reddit.com/r/ErgoMechKeyboards/) the videos below were very helpful for me in getting started.
