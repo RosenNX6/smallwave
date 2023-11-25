@@ -14,7 +14,7 @@ This design was inspired by Urchin and Flipper designs.
 > **Warning**
 > This repository is currently under construction. Files and descriptions are not complete at this time.
 
-## Parts List
+## Hardware List
 #### Required Parts
 - 1× smallwave PCB (files can be found in the gerbers folder)
 - 2× nice!nano
@@ -53,8 +53,25 @@ This design was inspired by Urchin and Flipper designs.
 | 2 | Magnetic Type C Cable | amazon.com | $14.99 |
 | 1 | Anker PowerPort Mini Dual Port USB Wall Charger | amazon.com | $6.99 |
 
-## Build Guide
-Pending.
-
 ## Firmware
 The smallwave utilizes the ZMK programming language. To view, download, or edit the zmk programming used for this project, visit the [zmk-config-smallwave repository](https://github.com/rosennx6/zmk-config-smallwave).
+
+## Design Software
+#### KiCad
+PCB design, part locations, copper traces, and pads. This was a steep learning curve for me but the software was incredible once I got the hang of it.
+#### AutoCAD
+PCB shape (edge cuts). This can be done in KiCad but I am inexperienced with the software and felt much more comfortable drawing prototype shapes in a software I am more familiar with.
+#### Inkscape
+Used for making the PCB art through the use of SVG files. 
+#### Github
+Used for programming the keyboard in the ZMK language directly in the web browser. How cool is that? More on this below.
+
+## Inspiration/Credits
+This build was inspired by the Ferris Sweep, Ben Vallack's Flipper, and Duccio's Urchin. I started this project with zero knowledge of keyboards, PCBs, or programming but, along with browsing [r/ErgoMechKeyboards](https://www.reddit.com/r/ErgoMechKeyboards/) the videos below were very helpful for me in getting started.
+- [You Won't Beleive How Effective This Keyboard Layout Is](https://youtu.be/8wZ8FRwOzhU?si=EpPOE7a2gVTnpphz)
+- [A Tiny, Ultra-Affordable Keyboard You Can Build Yourself!](https://youtu.be/JqpBKuEVinw?si=qibRUbN7NvYlW7R7)
+- [How to make a SWEEP KEYBOARD (beginner friendly!)](https://youtu.be/fBPu7AyDtkM?si=BP1d7TfXiWL5cw6Q)
+- [URCHIN Ergonomic Keyboard Build](https://youtu.be/CHSh1-dJq24?si=E14KtWMmz5-_V5mR)
+- [PCB Art - A Step By Step Tutorial](https://youtu.be/vD6es-Y4LLc?si=0AxjCWdZhJgSs7d_)
+- [Beginner ZMK Tutorial - How to make and modify your ZMK keymap](https://youtu.be/Kx8F4xI5yno?si=BYquHvFE0kq7FGJF)
+- [How to Set Up ZMK Firmware From Scratch](https://youtu.be/O_urj-rF3bQ?si=-QcN1Bxoi7COPyYP)
